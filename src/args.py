@@ -102,53 +102,6 @@ def add_args(parser: ArgumentParser):
     parser.add_argument("--wandb_mode", type=str, default="offline",
                         choices=["online", "offline", "disabled"],
                         help="Set the wandb mode.")
-    # BB encoder
-    # parser.add_argument(
-    #     "--bb_encoder_num_heads",
-    #     type=int,
-    #     default=12,
-    #     help="The number of self-attention heads of BB encoder."
-    # )
-    # parser.add_argument(
-    #     "--bb_encoder_num_layers",
-    #     type=int,
-    #     default=6,
-    #     help="The number of layers of BB encoder."
-    # )
-
-    # max lengths
-    # parser.add_argument(
-    #     "--max_bb_length",
-    #     type=int,
-    #     default=256,
-    #     help="Maximum sequence length of a basic block."
-    # )
-    # parser.add_argument(
-    #     "--max_bb_num",
-    #     type=int,
-    #     default=49,
-    #     help="Maximum number of basic blocks."
-    # )
-    # parser.add_argument(
-    #     "--max_var_length",
-    #     type=int,
-    #     default=190,
-    #     help="Maximum length of the variable input sequence."
-    # )
-    # parser.add_argument(
-    #     "--max_extra_length",
-    #     type=int,
-    #     default=15,
-    #     help="Maximum length of the variable input sequence."
-    # )
-
-    # features
-    # parser.add_argument(
-    #     "--add_flow_attn_scores",
-    #     type=int,
-    #     default=True,
-    #     help="Whether to add flow type self-attention scores."
-    # )
 
     # runtime
     parser.add_argument("--single_thread_parsing", default=True, action="store_true",
