@@ -1,0 +1,15 @@
+{
+    "br": 0,
+    "br.T": 1,
+    "br.F": 2,
+    "switch.default": 3,
+    "switch.case": 4,
+    "indirectbr": 5,
+    "catchswitch.handler": 6,
+    "catchswitch.default": 7,
+    "catchret": 8,
+    "cleanupret": 9,
+    "call.func": 10,
+    "call.return": 11,
+    "call.resume": 12
+}

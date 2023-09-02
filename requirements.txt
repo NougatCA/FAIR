@@ -1,0 +1,9 @@
+transformers
+dataclasses
+numpy
+pandas
+wandb
+scikit-learn
+tqdm
+prettytable
+antlr4-python3-runtime==4.12.0
