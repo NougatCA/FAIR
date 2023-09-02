@@ -3,6 +3,7 @@ import numpy as np
 from .parser import parse_ir_file
 # from .parser_new import parse_ir_file
 
+
 def prepare_model_inputs(args, ir_content: str, tokenizer, cfg_vocab, dfg_vocab, extra_tokens=None):
     ir = parse_ir_file(
         content=ir_content,
